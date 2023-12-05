@@ -1,1 +1,42 @@
+## Git Commands ##
 
+- 'git init'
+--> Initializes a new Git repository, creating a hidden '.git' directory in the current project
+- 'git clone <repository>' 
+--> Bring a repository that is hosted somewhere like Github into a folder on your local machine
+- 'git add <file>'
+--> Track your files and changes in Git
+- 'git add .' or 'git add --all'
+--> Adds all changes(new, modified, and deleted files) to the staging area
+- 'git commit -m "message"' 
+--> Save your files in Git
+- 'git status'
+--> Shows the status of changes as untracked, modified, or staged
+- 'git log'
+--> Displays the commit history, including commit messages and details (press 'q' key to exit)
+- 'git branch'
+--> Lists all branches in the repository, including the current branch
+- 'git branch <branch_name>'
+--> Creates a new branch with the specified name
+- 'git checkout <branch_name>'
+--> Switches to the specified branch
+- 'git merge <branch_name>'
+--> Combines changes from the specified branch into the current branch
+- 'git push' 
+--> Upload local changes to a remote repository like Github
+- 'git pull' 
+--> Download changes from a remote repository and merges them into your local machine, the opposite of push
+- 'git remote -v'
+--> Lists all remote repositories associated with the current project
+- 'git fetch'
+--> Fetches changes from a remote repository but does not merge them
+- 'git diff'
+--> Shows the differences between the working directory and the latest commit
+- 'git reset <file>'
+--> Unstages changes for a specified file
+- 'git rm <file>'
+--> Removes a file from both the working directory and the version control system
+- 'git tag <tag_name>'
+--> Creates a lightweight tag at the current commit
+- 'git blame <file>'
+--> Displays who last modified each line of a file, along with the commit information
