@@ -40,3 +40,7 @@
 --> Creates a lightweight tag at the current commit
 - 'git blame <file>'
 --> Displays who last modified each line of a file, along with the commit information
+
+
+Note:
+--> You can copy another Github user's repository, by using fork. 
