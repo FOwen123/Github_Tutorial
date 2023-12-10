@@ -1,0 +1,20 @@
+## Github Workflow ##
+
+1. Write Code
+2. Commit Changes 
+--> By committing changes, you're adding and committing at the same time
+3. Make a Pull Request
+--> If you don't have access
+
+
+## Local Git Workflow ##
+
+1. Write Code 
+2. Stage Changes 
+--> Git Add
+3. Commit Changes
+--> Git Commit
+4. Push Changes
+--> Git Push
+5. Make a Pull Request
+--> If you don't have access
