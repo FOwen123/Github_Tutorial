@@ -22,7 +22,7 @@
 --> Switches to the specified branch
 - 'git merge <branch_name>'
 --> Combines changes from the specified branch into the current branch
-- 'git push' 
+- 'git push' or 'git push origin main'
 --> Upload local changes to a remote repository like Github
 - 'git pull' 
 --> Download changes from a remote repository and merges them into your local machine, the opposite of push
