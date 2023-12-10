@@ -1,0 +1,40 @@
+## Git BRanching ##
+
+1. Make a new branch 
+--> git branch <branch_name>
+    Usually the branch name is called feature branch, for example, feature-something-something. Try to be as specific as possible
+2. Switch to the new branch
+--> git checkout <branch_name>
+3. Add and Commit changes
+4. Check the changes in the main branch
+--> git diff <branch_name>
+5. Push it to the remote repository
+--> git push --set-upstream origin <branch_name>
+    --set-upstream is the same as -u
+6. Merge the pull request in github
+7. Pull the changes from the remote repository
+--> git pull
+8. Delete the branch if you want
+--> git branch -d <branch_name>
+
+
+## Merge Conflict ##
+
+Merge Conflict happens when there are conflicting changes in different branches that Git is attempting to merge. This typically happens when you try to merge branches or when you pull changes from a remote repository, and Git cannot automatically merge the changes because they overlap or conflict with each other.
+
+# How to Solve #
+
+1. Identify the Conflict 
+2. Open the Conflicted File
+--> git merge main
+    If there is a conflicted file, usually it will look like this
+    <<<<<<< HEAD
+    // Your changes
+    =======
+    // Incoming changes
+    >>>>>>> branch_name
+3. Resolve the Conlict Automatically or Manually
+4. Mark as Resolved
+--> git add .
+5. Commit the changes
+--> git commit -m "message"
