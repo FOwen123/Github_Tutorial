@@ -1,3 +1,3 @@
-# Welcome to Github Tutorial
+# Github Tutorial
 
-## This is me learning how to use Github
+Welcome this is me trying to learn github 
